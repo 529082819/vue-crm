@@ -1,5 +1,14 @@
 **demo**: [https://taylorchen709.github.io/vue-admin/](https://taylorchen709.github.io/vue-admin/)
 
+# 说明
+非常简单的一个vue2后台管理系统：
+
+* 1、vuex状态管理
+* 2、axios前后端接口交互、本地mock数据
+* 3、使用element-UI前端UI框架
+* 4、router单页运用
+* 5、webpack构建整个项目
+
 # To start
 
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli)
@@ -8,18 +17,18 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli)
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8081
+# 开发环境 at localhost:8081
 npm run dev
 
-# build for production with minification
+# build for production with minification 生产环境
 npm run build
 
 ```
 
 # Folder structure
-* build - webpack config files
-* config - webpack config files
-* dist - build
+* build - webpack config files  webpack配置
+* config - webpack config files  
+* dist - build   构建文件
 * src -your app
     * api
     * assets
@@ -34,7 +43,14 @@ npm run build
     * routes.js
 * static - static assets
 
+# mock
+开发环境支持mock数据
+
+# vuex
+开发环境支持mock数据
+
 # Theme
+可以改变默认颜色
 You can change theme by 
 1. Generate theme packages by [https://elementui.github.io/theme-preview/#/](https://elementui.github.io/theme-preview/#/)
 2. Put theme packages in src/assets/theme/
